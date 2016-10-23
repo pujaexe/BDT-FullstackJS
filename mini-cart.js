@@ -81,10 +81,10 @@ Cart = {
 	}
 };
 
-BookManager 			 = function () {};
-BookManager.prototype 	 = new ProductManager();
-FashionManager 			 = function () {};
-FashionManager.prototype = new ProductManager();
+BookManager 				= function () {};
+BookManager.prototype 	 	= new ProductManager();
+FashionManager 			 	= function () {};
+FashionManager.prototype 	= new ProductManager();
 
 /* Transaction */
 book1 = new Book();
