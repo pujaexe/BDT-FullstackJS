@@ -129,7 +129,7 @@ console.log("data2 setelah di hapus ke chart");
 MyCart.removeItem("468");
 console.log(MyCart.items);
 
-console.log("TotalHarga");
+console.log("Total Harga");
 MyCart.getTotalPrice();
 
 MyCart.checkOut(10000);
